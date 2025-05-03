@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^ontology$ https://raw.githubusercontent.com/Seeliu1/marine-disaster-ontology/main/ontology.owl [R=302,L]
+RewriteRule ^ontology/(.*)$ https://raw.githubusercontent.com/Seeliu1/marine-disaster-ontology/main/$1 [R=302,L]
